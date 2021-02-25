@@ -1,37 +1,139 @@
-## Welcome to GitHub Pages
+### 我的第一份作業
 
-You can use the [editor on GitHub](https://github.com/ucc-0121/2021/edit/gh-pages/README.md) to maintain and preview the content for your website in Markdown files.
+```C
+進階題1:分式化簡
+#include <stdio.h>
+int main()
+{
+	int m,n;
+	scanf("%d%d",&m,&n);
+	for(int i=m;i>=1;i--){
+	if(m%i==0 && n%i==0){
+	m=m/i;
+	n=n/i;
+	}
+	
+}
+ printf("%d %d\n",m,n);
+}
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```C
+進階題2:讀入整數反敘列印
+#include <stdio.h>
+int main()
+{
+	int n=0,a[90];
+	for(int i=1;i<=90;i++)
+	{
+		scanf("%d",&(a[i]));
+		if(a[i]==0) break;
+		else n=n+1;
+	}
+	for(int k=n;k>0;k--){
+		printf("%d ",a[k]);
+		}
+		printf("\n");
+}
 ```
+```C
+進階題3:A的B次方函數
+#include <stdio.h>
+int MYPOWER(int x,int y)
+{
+	int ans=1;
+	if(x>=1 && x<=9)
+	{
+		for(int i=1;i<=y;i++)
+		{
+			ans*=x;
+		}
+	}
+	return ans;
+}
+int main(void)
+{
+	int a,b;
+	scanf("%d%d",&a,&b);
+	printf("[%d]",MYPOWER(a,b));
+	return 0;
+}
+```
+```C
+進階題4:漸增數列相加
+#include <stdio.h>
+int main()
+{
+	int a,n=0;
+	scanf("%d",&a);
+	for(int i=2;i<=a;i++){
+		int j,z;
+		j=i-1;
+		z=j*i;
+		n=n+z;
+	}
+	printf("%d\n",n);
+}
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+```
+```C
+基礎題1:找零錢
+#include <stdio.h>
+int main()
+{
+	int a,n=0;
+	scanf("%d",&a);
+	for(int i=2;i<=a;i++){
+		int j,z;
+		j=i-1;
+		z=j*i;
+		n=n+z;
+	}
+	printf("%d\n",n);
+}
+```
+```C
+基礎題2:因數個數
+#include <stdio.h>
+int main()
+{
+	int a;
+	scanf("%d",&a);
+	int k=0;
+	for(int i=1;i<=a;i++)
+	{
+		if(a%i==0){ k++;}
+	}	
+	printf("%d\n",k);
+}
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ucc-0121/2021/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+```
+```C
+基礎題3:找倍數
+#include <stdio.h>
+int main()
+{
+	int a,k=0;
+	for(int i=1;i<=10;i++){
+	scanf("%d",&a);
+	if(a%3==0){ k++;}
+	}
+	printf("%d\n",k);
 
-### Support or Contact
+}
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+```
+```C
+基礎題4:整數轉換為等級
+#include <stdio.h>
+int main()
+{
+	int a;
+	scanf("%d",&a);
+	
+	if(a>=90)printf("A\n");
+	else if(a>=80)printf("B\n");
+	else if(a>=60)printf("C\n");
+	else if(a<60)printf("F\n");
+}
+```
