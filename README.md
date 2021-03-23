@@ -262,6 +262,7 @@ int main()
             printfAll();
     return 0;
 }
+```
 week3-4
 ```C
 #include <stdio.h>
@@ -275,7 +276,4 @@ int main()
 
     return 0;
 }
-
-
-```
 ```
