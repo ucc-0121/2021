@@ -16,7 +16,7 @@ int main()
 }
  printf("%d %d\n",m,n);
 }
-
+```
 ```C
 進階題2:讀入整數反敘列印
 #include <stdio.h>
