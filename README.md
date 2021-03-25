@@ -157,7 +157,7 @@ int main()
 
 ```
 ```C
-##回家作業的部分week2-2
+回家作業的部分week2-2
 #include<stdio.h>
 int main()
 {
@@ -177,7 +177,7 @@ int main()
 
 ```
 ```C
-##回家作業的部分week2-3
+回家作業的部分week2-3
 #include<stdio.h>
 int main()
 {
@@ -200,8 +200,9 @@ int main()
 }
 
 ```
-week3-1
+
 ```C
+week3-1
 #include <stdio.h>
 int a[5]={0,10,20,30,40};
 int main()
@@ -214,8 +215,9 @@ int main()
 }
 
 ```
-week3-2
+
 ```C
+week3-2
 #include <stdio.h>
 int a[5]={0,10,20,30,40};
 void printfAll()
@@ -238,8 +240,9 @@ int main()
             printfAll();
 }
 ```
-week3-3
+
 ```C
+week3-3
 #include <stdio.h>
 int a[10]={0,10,20,30,40,50,60,70,80,90};
 void printfAll()
@@ -263,8 +266,9 @@ int main()
     return 0;
 }
 ```
-week3-4
+
 ```C
+week3-4
 #include <stdio.h>
 #include <stdlib.h>
 int a[10];
@@ -277,8 +281,9 @@ int main()
     return 0;
 }
 ```
-week4-1
+
 ```C
+week4-1
 #include <stdio.h>
 struct DATA{
     float x,y,z;
@@ -288,8 +293,9 @@ int main()
 
 }
 ```
-week4-2
+
 ```C
+week4-2
 #include <stdio.h>
 struct DATA{
     float x,y,z;
@@ -302,8 +308,9 @@ int main()
     printf("%f %f %f",point1.x,point1.y,point1.z);
 }
 ```
-week4-3
+
 ```C
+week4-3
 #include <stdio.h>
 struct DATA{
     float x,y,z;
@@ -321,9 +328,9 @@ int main()
 }
 
 ```
-week4-4
-```C
 
+```C
+week4-4
 #include <stdio.h>
 struct DATA{
     float x,y,z;
@@ -342,8 +349,9 @@ int main()
 }
 
 ```
-week4-5
+
 ```C
+week4-5
 #include <stdio.h>
 struct DATA{
     float x,y,z;
