@@ -432,7 +432,7 @@ int main()
 
 ```
 ```C
-字串練習
+week5-5
 #include <stdio.h>
 #include <string.h>
 char line [100][10];
