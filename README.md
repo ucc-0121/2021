@@ -1,5 +1,5 @@
 ### 我的第一份作業
-##第一週
+第一週
 ```C
 進階題1:分式化簡
 #include <stdio.h>
@@ -139,6 +139,7 @@ int main()
 ```
 ##hackmd的部分
 養眼歐派
+第二週
 ------------
 ![123456](https://i.imgur.com/zWet5oE.jpg)
 ```C
@@ -200,7 +201,7 @@ int main()
 }
 
 ```
-
+第三週
 ```C
 week3-1
 #include <stdio.h>
@@ -281,7 +282,7 @@ int main()
     return 0;
 }
 ```
-
+第四週
 ```C
 week4-1
 #include <stdio.h>
@@ -372,6 +373,7 @@ int main()
 }
 
 ```
+第五週
 ```C
 week5-1
 #include <stdio.h>
@@ -462,6 +464,7 @@ int main()
 	}
 }
 ```
+第七週
 ```C
 week7-1
 #include <stdio.h>
@@ -544,4 +547,7 @@ int main() {
   
   return 0;
 }
+```
+第八週
+```C
 ```
