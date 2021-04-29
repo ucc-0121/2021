@@ -11,7 +11,7 @@ int compare(const void *p1,const void *p2){
 	else if( ((BOX*)p1)->ans < ((BOX*)p2)->ans) return +1;
 	else if( ((BOX*)p1)->c   < ((BOX*)p2)->c) return -1 ;
 	else if( ((BOX*)p1)->c   > ((BOX*)p2)->c) return +1 ;
-	else return 0;//�۵��ɤ�r��
+	else return 0;//¬Ûµ¥®É¤ñ¦r¥À
 }
 int main()
 {
