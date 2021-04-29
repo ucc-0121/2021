@@ -551,3 +551,117 @@ int main() {
 第八週
 ```C
 ```
+第十週
+```C
+week10-1
+#include <stdio.h>
+char line[10000];
+int main()
+{
+	int n;
+	scanf("%d\n",&n);
+
+	for(int i=0;i<n;i++){
+		gets(line);
+
+		printf("%s\n",line);
+	}
+
+}
+
+```
+```C
+week10-2
+#include <stdio.h>
+char line[10000];
+int main()
+{
+	int n;
+	scanf("%d\n",&n);
+
+	for(int i=0;i<n;i++){
+		gets(line);
+
+
+		for(k=0;line[k]!=0;k++){
+		char c= line[k];
+		if(c>='A'&& c<='Z') printf("大");
+		else if(c>='a'&&c<='z') printf("小");
+		else printf("他");
+
+
+			}
+
+	}
+
+}
+
+```
+```C
+week10-3
+#include <stdio.h>
+char line[10000];
+int ans[26];
+int main()
+{
+	int n;
+	scanf("%d\n",&n);
+
+	for(int i=0;i<n;i++){
+		gets(line);
+
+
+		for(int k=0;line[k]!=0;k++){
+		char c= line[k];
+		if(c>='A'&& c<='Z') ans[c-'A']++;
+		else if(c>='a'&&c<='z') ans[c-'a']++;
+			}
+			for(int i=0;i<26;i++){
+			printf("%c %d\n",'A'+1,ans[i]);}
+
+	}
+
+}
+
+```
+```C
+week10-4
+#include <stdio.h>
+char line[10000];
+int ans[26];
+char alphabet[]="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+int main()
+{
+	int n;
+	scanf("%d\n",&n);
+
+	for(int i=0;i<n;i++){
+		gets(line);
+
+
+		for(int k=0;line[k]!=0;k++){
+		char c= line[k];
+		if(c>='A'&& c<='Z') ans[c-'A']++;
+		else if(c>='a'&&c<='z') ans[c-'a']++;
+		}
+	}
+	for(int i=0;i<26;i++){
+		for(int j=i+1;j<26;j++){
+			if(ans[i]<ans[j] || (ans[i]==ans[j] && alphabet[i]>alphabet[j])){
+			int temp=ans[i];
+			ans[i]=ans[j];
+			ans[j]=temp;
+			char c = alphabet[i];
+			alphabet[i] = alphabet[j];
+			alphabet[j]=c;
+			}
+		}
+	}
+
+	for(int i=0;i<26;i++){
+		if(ans[i]>0) printf("%c %d\n",alphabet[i],ans[i]);
+
+	}
+
+}
+```
