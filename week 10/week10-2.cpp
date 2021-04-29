@@ -11,9 +11,9 @@ int main()
 
 		for(k=0;line[k]!=0;k++){
 		char c= line[k];
-		if(c>='A'&& c<='Z') printf("¤j");
-		else if(c>='a'&&c<='z') printf("¤p");
-		else printf("¥L");
+		if(c>='A'&& c<='Z') printf("Â¤j");
+		else if(c>='a'&&c<='z') printf("Â¤p");
+		else printf("Â¥L");
 
 
 			}
