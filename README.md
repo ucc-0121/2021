@@ -932,6 +932,7 @@ int main()
 ```
 第十一週
 ```C
+week11-1
 #include <stdio.h>
 unsigned char c;
 typedef unsigned char uchar;
@@ -942,5 +943,23 @@ int main()
     d=c;
     printf("%c",d);
 }
+
+```
+```C
+week 11-2
+#include <stdio.h>
+typedef struct data{
+    char c;
+    int ans;
+}DATA;
+DATA listA;
+int main()
+{
+    listA.c='A';
+    listA.ans=1;
+
+    printf("%c %d\n",listA.c, listA.ans);
+}
+
 
 ```
