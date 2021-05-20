@@ -1,0 +1,7 @@
+void setup(){
+  size(1024,400);
+}
+void draw(){
+  if (mousePressed) background(51,146,203); 
+  else background(51,203,128);
+}

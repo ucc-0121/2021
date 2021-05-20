@@ -1,0 +1,13 @@
+void setup(){//只做一次設定
+  size(1024,400);
+}
+void draw(){//互動版本每秒畫60次
+  if (mousePressed) background(51,146,203); //按下去淺藍
+  else background(51,203,128);//否則淺綠
+  textSize(80);//文字大小
+  text("中文壞掉Now a is:"+a,212,200);//劃出文字
+}//目標!!文字全系列都交一下
+int a=0;
+void mousePressed(){
+  a++;
+}

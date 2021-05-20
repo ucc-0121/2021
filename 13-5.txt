@@ -1,0 +1,13 @@
+//開新的
+void setup(){
+  size(1024,400);
+}
+void draw(){
+  background(#C1F6FF);//色碼
+  int s=second();
+  int m=minute();
+  int h=hour();
+  textSize(80);
+  text(h+":"+m+":"+s,100,200);
+   //數字 字串 數字 字串 數字
+}
