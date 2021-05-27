@@ -1,0 +1,13 @@
+int ans=0;
+void setup(){//設定只做一次
+//  float ans= random(60);//亂數 會是<60的浮點數
+  size(300,300);
+  textSize(30);
+}
+void draw(){//畫圖 每秒60次
+background(#62AED3);
+text(ans,20,30);
+}
+  void mousePressed(){//按下去 互動一次
+    ans = (int)random(60);//浮點數不能直接變整數
+}
