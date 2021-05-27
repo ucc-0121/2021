@@ -1361,7 +1361,7 @@ void draw(){
 ```C
 14-1
 void setup(){//設定只做一次
-int ans= random(60);//亂數 會是<60的浮點數
+float ans= random(60);//亂數 會是<60的浮點數
 text(ans,20,20);//畫出ans
 }
 void draw(){//畫圖 每秒60次
