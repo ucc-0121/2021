@@ -1369,7 +1369,7 @@ void draw(){//畫圖 每秒60次
 }
 ```
 ```C
-14-1
+14-2
 int ans=0;
 void setup(){//設定只做一次
 //  float ans= random(60);//亂數 會是<60的浮點數
