@@ -1,6 +1,6 @@
 ### 我的第一份作業
-第一週
 [第一週](https://ucc-0121.github.io/2021/week1/README.md)
+------------
 ```C
 進階題1:分式化簡
 #include <stdio.h>
