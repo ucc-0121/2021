@@ -138,9 +138,8 @@ int main()
 	else if(a<60)printf("F\n");
 }
 ```
-##hackmd的部分
-養眼歐派
-第二週
+##hackmd的部分養眼歐派
+[第二週](https://github.com/ucc-0121/2021/blob/gh-pages/week2/README.md)
 ------------
 ![123456](https://i.imgur.com/zWet5oE.jpg)
 ```C
@@ -202,7 +201,7 @@ int main()
 }
 
 ```
-第三週
+[第三週](https://github.com/ucc-0121/2021/blob/gh-pages/week3/README.md)
 ------------
 ```C
 week3-1
@@ -284,7 +283,7 @@ int main()
     return 0;
 }
 ```
-第四週
+[第四週](https://github.com/ucc-0121/2021/blob/gh-pages/week4/README.md)
 ------------
 ```C
 week4-1
@@ -376,7 +375,7 @@ int main()
 }
 
 ```
-第五週
+[第五週](https://github.com/ucc-0121/2021/blob/gh-pages/week5/README.md)
 ------------
 ```C
 week5-1
@@ -468,7 +467,7 @@ int main()
 	}
 }
 ```
-第七週
+[第七週](https://github.com/ucc-0121/2021/blob/gh-pages/week7/README.md)
 ------------
 ```C
 week7-1
@@ -553,7 +552,7 @@ int main() {
   return 0;
 }
 ```
-第八週
+[第八週](https://github.com/ucc-0121/2021/blob/gh-pages/week8/README.md)
 ------------
 ```C
 week8-1
@@ -743,7 +742,7 @@ int main()
 }
         
 ```
-第十週
+[第十週](https://github.com/ucc-0121/2021/blob/gh-pages/week10/README.md)
 ------------
 ```C
 week10-1
@@ -937,7 +936,7 @@ int main()
 
 }
 ```
-第十一週
+[第十一週](https://github.com/ucc-0121/2021/blob/gh-pages/week11/README.md)
 ------------
 ```C
 week11-1
