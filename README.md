@@ -1481,3 +1481,17 @@ void mousePressed(){
   N++;
 }
 ```
+第15週-上課鐘聲
+```C
+15-1
+//自動打鐘的程式
+void setup(){
+  size(400,200);
+}
+void draw(){
+  int s= second();//0...59秒
+  if(s%2==0) background(#50C5E8);
+  else background(#50E8A9);
+}
+
+```
