@@ -1,3 +1,4 @@
+[第二週](https://github.com/ucc-0121/2021/week2)
 ![123456](https://i.imgur.com/zWet5oE.jpg)
 ```C
 ##回家作業的部分week2-1
