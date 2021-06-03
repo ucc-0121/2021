@@ -1508,3 +1508,18 @@ void draw(){
   text(10-s%11,100,100);//10.9.8.7...3.2.1.0,共11個數
 }
 ```
+```C
+15-2
+import processing.sound.*;
+SoundFile player;
+void setup(){
+  size(400,200);
+  player = new SoundFile(this, "tada.mp3");
+}
+void draw(){
+  background(#50C5E8);
+}
+void mousePressed(){
+  player.play();
+}
+```
