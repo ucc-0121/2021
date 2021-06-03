@@ -1,3 +1,4 @@
+[第十四週](https://github.com/ucc-0121/2021/week14)
 ```C
 14-1
 void setup(){//設定只做一次
