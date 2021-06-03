@@ -1,4 +1,4 @@
-
+[第一週](https://github.com/ucc-0121/2021/week1)
 ```C
 進階題1:分式化簡
 #include <stdio.h>
