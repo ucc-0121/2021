@@ -1523,3 +1523,23 @@ void mousePressed(){
   player.play();
 }
 ```
+```C
+15-4
+點擊播放 點擊停止
+import processing.sound.*;
+SoundFile player;
+void setup(){
+  size(400,200);
+  player = new SoundFile(this, "bell.mp3");
+}
+void draw(){
+  background(#50C5E8);
+}
+void mousePressed(){
+  if(player.isPlaying()){
+  player.stop();  
+  }else{
+    player.play();//太吵了
+  }
+}
+```
