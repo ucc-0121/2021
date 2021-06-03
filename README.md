@@ -139,7 +139,7 @@ int main()
 }
 ```
 ##hackmd的部分養眼歐派
-[第二週](https://github.com/ucc-0121/2021/blob/gh-pages/week2/README.md)
+[第二週](https://github.com/ucc-0121/2021/blob/gh-pages/week2)
 ------------
 ![123456](https://i.imgur.com/zWet5oE.jpg)
 ```C
@@ -201,7 +201,7 @@ int main()
 }
 
 ```
-[第三週](https://github.com/ucc-0121/2021/blob/gh-pages/week3/README.md)
+[第三週](https://github.com/ucc-0121/2021/blob/gh-pages/week3)
 ------------
 ```C
 week3-1
@@ -283,7 +283,7 @@ int main()
     return 0;
 }
 ```
-[第四週](https://github.com/ucc-0121/2021/blob/gh-pages/week4/README.md)
+[第四週](https://github.com/ucc-0121/2021/blob/gh-pages/week4)
 ------------
 ```C
 week4-1
@@ -375,7 +375,7 @@ int main()
 }
 
 ```
-[第五週](https://github.com/ucc-0121/2021/blob/gh-pages/week5/README.md)
+[第五週](https://github.com/ucc-0121/2021/blob/gh-pages/week5)
 ------------
 ```C
 week5-1
@@ -467,7 +467,7 @@ int main()
 	}
 }
 ```
-[第七週](https://github.com/ucc-0121/2021/blob/gh-pages/week7/README.md)
+[第七週](https://github.com/ucc-0121/2021/blob/gh-pages/week7)
 ------------
 ```C
 week7-1
@@ -552,7 +552,7 @@ int main() {
   return 0;
 }
 ```
-[第八週](https://github.com/ucc-0121/2021/blob/gh-pages/week8/README.md)
+[第八週](https://github.com/ucc-0121/2021/blob/gh-pages/week8)
 ------------
 ```C
 week8-1
@@ -742,7 +742,7 @@ int main()
 }
         
 ```
-[第十週](https://github.com/ucc-0121/2021/blob/gh-pages/week10/README.md)
+[第十週](https://github.com/ucc-0121/2021/blob/gh-pages/week10)
 ------------
 ```C
 week10-1
@@ -936,7 +936,7 @@ int main()
 
 }
 ```
-[第十一週](https://github.com/ucc-0121/2021/blob/gh-pages/week11/README.md)
+[第十一週](https://github.com/ucc-0121/2021/blob/gh-pages/week11)
 ------------
 ```C
 week11-1
@@ -1069,7 +1069,7 @@ int main()
 	}
 }
 ```
-第十二週
+[第十二週](https://github.com/ucc-0121/2021/blob/gh-pages/week12)
 ------------
 ```C
 week12-1
@@ -1253,7 +1253,7 @@ int main()
 }
 
 ```
-第十三週
+[第十三週](https://github.com/ucc-0121/2021/blob/gh-pages/week13)
 ------------
 ```C
 13-1
@@ -1366,7 +1366,7 @@ void draw(){
    //數字 字串 數字 字串 數字
 }
 ```
-第十四週
+[第十四週](https://github.com/ucc-0121/2021/blob/gh-pages/week14)
 ------------
 ```C
 14-1
@@ -1491,7 +1491,7 @@ void mousePressed(){
   N++;
 }
 ```
-第15週-上課鐘聲
+[第15週-上課鐘聲](https://github.com/ucc-0121/2021/blob/gh-pages/week15)
 ------------
 ```C
 15-1
