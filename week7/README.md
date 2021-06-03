@@ -1,3 +1,4 @@
+[第七週](https://github.com/ucc-0121/2021/week7)
 ```C
 week7-1
 #include <stdio.h>
