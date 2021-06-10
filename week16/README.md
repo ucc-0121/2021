@@ -163,3 +163,32 @@ void draw() {
   }
 }
 ```
+```C
+16-8
+void setup() {
+  size(400, 200);
+}
+float start=0,v;
+void mousePressed(){
+  v = random(1);
+}
+void draw() {
+  background(#B389EA);
+  if(v>0.001){
+  start +=v;//位置 速度 加速度 (位置會加上速度)
+  v*=0.99;//摩擦力為讓速度變慢 位置 速度 加速度(速度加上加速度)
+  }
+ // if(start <10) start+=0.01;// float start=mouseX/50.0;
+  fill(255);
+  text(start,200,150);
+  text(v,200,170);
+  for (int i=0; i<24; i++) {
+    float shift=2*PI*i/24.0;
+    if (i%3==0) fill(255);
+    if (i%3==1) fill(#FFF86C);
+    if (i%3==2) fill(#89D0EA);
+    if(i==0) fill(#FA761E);
+    arc(100, 100, 180, 180, shift+0+start, shift+PI/12+start);
+  }
+}
+```
