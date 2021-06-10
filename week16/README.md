@@ -65,3 +65,26 @@ void draw() {
   }
 }
 ```
+```C
+16-5
+void setup() {
+  size(400, 200);
+}
+void draw() {
+  background(#B389EA);
+  fill(255);
+  ellipse(100, 100, 180, 180);
+
+  fill(255,0,0);
+  float start=mouseX/50.0;
+  for (int i=0; i<24; i++) {
+    float shift=2*PI*i/24.0;
+    if (i%3==0) fill(255);
+    if (i%3==1) fill(#FFF86C);
+    if (i%3==2) fill(#89D0EA);
+    if(i==0) fill(#FA761E);
+    arc(100, 100, 180, 180, shift+0+start, shift+PI/12+start);
+  }
+}
+```
+
