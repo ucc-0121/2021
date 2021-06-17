@@ -419,6 +419,7 @@ int main()
 }
 
 ```
+/*
 ```C
 week5-4
 #include <stdio.h>
@@ -436,6 +437,7 @@ int main()
 
 
 ```
+*/
 ```C
 week5-5
 #include <stdio.h>
