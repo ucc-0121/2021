@@ -10,6 +10,7 @@ void draw(){
   text(line,100,100);//可以將字串LINE畫出來
   text("World",100,150);//也可以印出來
 }
+```
 ```C
 void setup(){
   size(400,200);
