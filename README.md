@@ -1848,7 +1848,7 @@ void setup(){
   size(400,200);
    textSize(40);
 }
- x=100,y=100,vx=0,vy=0;
+float x=100,y=100,vx=0,vy=0;
 void draw(){
   background(#8FF0D3);
   rect(x,y,50,50);
