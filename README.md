@@ -1899,6 +1899,6 @@ void keyPressed(){
   if(key>='a' && key<='z')line = line + key;
   if(key>='A' && key<='Z')line = line + key;
   if(key==ENTER){    }
-  if(key==BACKSPACE) line = line.substring(0, len-1);
+  if(key==BACKSPACE && len>0) line = line.substring(0, len-1);
 }
 ```
