@@ -1,0 +1,13 @@
+```C
+17-1
+void setup(){
+  size(400,200);
+  textSize(40);
+}
+String line="hello";
+void draw(){
+  background(#8FF0D3);
+  text(line,100,100);//可以將字串LINE畫出來
+  text("World",100,150);//也可以印出來
+}
+```
